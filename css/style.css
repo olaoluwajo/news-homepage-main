@@ -244,7 +244,7 @@
             padding: 8rem 0rem 0rem 1.5rem  ;
         }
 
-        .nav--links .show{
+        .nav--links.show{
             display: block;
         }
 
@@ -264,9 +264,7 @@
         }
 
 
-        .close__mneu{
-            display: none;
-        }
+       
         .mobile--menu img{ 
            
 

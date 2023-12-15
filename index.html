@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -14,31 +13,31 @@
     <link rel="stylesheet" href="./css/style.css" />
 
     <title>Frontend Mentor | News homepage</title>
-
   </head>
-  <body>
+  <body id="body">
     <header>
       <nav>
         <div class="logo">
-          <img src="./assets/images/logo.svg" alt="logo" style="width:50px;"/>
+          <img src="./assets/images/logo.svg" alt="logo" style="width: 50px" />
         </div>
-        <ul class="nav--links show" >
+        <ul class="nav--links ">
           <li><a href="#">Home</a></li>
           <li><a href="#">New</a></li>
           <li><a href="#">Popular</a></li>
           <li><a href="#">Trending</a></li>
           <li><a href="#">Categories</a></li>
         </ul>
-        <div class="mobile--menu" >
+        <div class="mobile--menu">
           <img
             src="./assets/images/icon-menu.svg"
             alt="search"
-            class="open__mneu"
+            class="open__menu"
           />
           <img
             src="./assets/images/icon-menu-close.svg"
             alt="search"
-            class="close__mneu"
+            class="close__menu"
+            style="display: none;"
           />
         </div>
       </nav>
@@ -64,8 +63,9 @@
         <p>
           We dive into the next evolution of the web that claims to put the
           power of the platforms back into the hands of the people. But is it
-          really fulfilling its promise? 
-        </p><button>Read more</button>
+          really fulfilling its promise?
+        </p>
+        <button>Read more</button>
       </div>
       <div class="article__contrainer grid__four">
         <h2>New</h2>
@@ -135,6 +135,6 @@
         </div>
       </div>
     </main>
-<script type="module" src="/js/script.js"></script>
+    <script type="module" src="/js/script.js"></script>
   </body>
 </html>
